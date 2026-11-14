@@ -1,4 +1,4 @@
-def create_secretFile(message, filename):
+def create_secret_file(message, filename):
     words = message.split()
     format_message = ""
     
