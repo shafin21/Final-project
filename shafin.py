@@ -1,4 +1,18 @@
 def create_secret_file(message, filename):
+    
+    """Creates a text file and saves a hidden message inside it.
+
+    Args:
+        message (str): The hidden message to save.
+        filename (str): The name of the text file.
+
+    Returns:
+        str: The name of the created text file.
+
+    Side effects:
+        Creates and writes to a text file.
+    """
+
     words = message.split()
     format_message = ""
     
